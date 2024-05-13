@@ -3,7 +3,7 @@ import {TodoTable} from './components/TodoTable';
 import React, { useState } from 'react';
 import { NewTodoForm } from './components/NewTodoForm';
 
-function App() {
+export const App = () => {
 
   const [todos, setTodos] = useState(
     [
@@ -54,4 +54,3 @@ function App() {
   );
 }
 
-export default App;
